@@ -1,0 +1,36 @@
+package: github.com/pengsrc/database-migrator
+
+import:
+
+# Command-line
+- package: github.com/spf13/cobra
+  version: b26b538f693051ac6518e65672de3144ce3fbedc
+- package: github.com/spf13/viper
+  version: 25b30aa063fc18e48662b86996252eabdcf2f0c7
+- package: github.com/spf13/pflag
+  version: e57e3eeb33f795204c1ca35f56c44f83227c6e66
+- package: github.com/fsnotify/fsnotify
+  version: v1.4.2
+
+# DB
+- package: github.com/go-sql-driver/mysql
+  version: v1.3
+- package: gopkg.in/gorp.v1
+  version: v2.0.0
+  repo:    https://github.com/go-gorp/gorp.git
+- package: github.com/rubenv/sql-migrate
+  version: a3e2963537993d229b6e257d10bd8bc640b06ce3
+
+# Shared
+- package: github.com/pengsrc/go-shared
+  version: v0.1.2
+
+testImport:
+
+# Test
+- package: github.com/stretchr/testify
+  version: v1.1.4
+- package: github.com/davecgh/go-spew
+  version: v1.1.0
+- package: github.com/pmezard/go-difflib
+  version: v1.0.0

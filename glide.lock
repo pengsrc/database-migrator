@@ -1,0 +1,34 @@
+hash: 0ff220ba7a63d111281d6d502f4eb990e4c2ad877002e2d85d46a4af2d64fc2f
+updated: 2018-04-25T14:06:50.812074+08:00
+imports:
+- name: github.com/fsnotify/fsnotify
+  version: 629574ca2a5df945712d3079857300b5e4da0236
+- name: github.com/go-sql-driver/mysql
+  version: a0583e0143b1624142adab07e0e97fe106d99561
+- name: github.com/inconshreveable/mousetrap
+  version: 76626ae9c91c4f2a10f34cad8ce83ea42c93bb75
+- name: github.com/pengsrc/go-shared
+  version: 4ac6c7f34d751b23e51c0bb573dc5f6658c74590
+  subpackages:
+  - check
+  - convert
+- name: github.com/rubenv/sql-migrate
+  version: a3e2963537993d229b6e257d10bd8bc640b06ce3
+  subpackages:
+  - sqlparse
+- name: github.com/spf13/cobra
+  version: b26b538f693051ac6518e65672de3144ce3fbedc
+- name: github.com/spf13/pflag
+  version: e57e3eeb33f795204c1ca35f56c44f83227c6e66
+- name: github.com/spf13/viper
+  version: 25b30aa063fc18e48662b86996252eabdcf2f0c7
+- name: gopkg.in/gorp.v1
+  version: 4deece61034873cb5b5416e81abe4cea7bd0da72
+  repo: https://github.com/go-gorp/gorp.git
+testImports:
+- name: github.com/davecgh/go-spew
+  version: 346938d642f2ec3594ed81d874461961cd0faa76
+- name: github.com/pmezard/go-difflib
+  version: 792786c7400a136282c1664665ae0a8db921c6c2
+- name: github.com/stretchr/testify
+  version: 69483b4bd14f5845b5a1e55bca19e954e827f1d0
