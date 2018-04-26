@@ -45,6 +45,7 @@ Usage:
 Available Commands:
   down        Revert one migration
   help        Help about any command
+  new         Create an new migration
   status      Show database schema status
   sync        Sync database schema
   up          Run one migration
